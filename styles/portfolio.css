@@ -15,8 +15,8 @@ nav {
     font-size: 45px;
 }
 
-.header{
-    background-color: white;
+.header {
+    background-color: #fff8f3;
     background-image: url("/resorces/images/header_bg.png"), url(/resorces/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
@@ -48,7 +48,11 @@ nav li {
     padding: 18px 35px;
 }
 
-.btn-Secondary{
+.btn-primary i{
+    margin-left: 10px;
+}
+
+.btn-Secondary {
     border: solid orangered 1px;
     border-radius: 8px;
     outline: none;
@@ -59,21 +63,232 @@ nav li {
     margin-left: 20px;
 }
 
-.banner-btn{
+/* Banner */
+
+.banner {
+    margin: 0px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.banner-sub-title {
+    color: gray;
+}
+
+.banner-btn {
     margin: 50px 0;
 }
 
-.banner{
-margin: 0px 150px;
-display: flex;
-align-items: center;
+/* Main Section */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
-.banner-title{
-font-size: 35px;
-margin: 20px 0;
+/* About Section */
+
+.about {
+    margin-top: 130px;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 130px 150px;
+
 }
 
-.banner-sub-title{
-color: gray;
+.section-des {
+    margin: 30px;
+    color: gray;
+
+}
+
+/* Table Section */
+
+.data {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* i do section */
+.i-do {
+    margin-top: 130px;
+    padding: 0 150px;
+
+
+}
+
+.do-title {
+    text-align: center;
+}
+
+
+.do-des {
+    margin: 30px;
+    color: gray;
+
+    text-align: center;
+
+}
+
+/* Skill Section */
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill-title {
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.skill {
+    padding: 10px;
+    background: #fff8f3;
+    box-shadow: 2px 2px rgb(142, 142, 142);
+    border-radius: 5px;
+
+}
+
+/* Resume Section */
+.resume {
+    padding: 130px 150px;
+}
+
+.Summary {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+.sum-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title {
+    margin-top: 50px;
+
+}
+
+
+.location {
+    margin: 10px 0;
+}
+
+.ex-name {
+    margin: 20px 0;
+    border-bottom: 1px solid gray;
+}
+
+.ex-des {
+    margin-bottom: 15px;
+}
+
+
+.exp-name {
+    margin: 20px 0;
+    border-bottom: 1px solid gray;
+}
+
+.exp-des {
+    margin-bottom: 15px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.btn-cv {
+    background-color: orangered;
+    border-radius: 8px;
+    outline: none;
+    color: beige;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    padding: 18px 35px;
+}
+
+.btn-cv i{
+    margin-left: 10px;
+}
+
+/* Footer Section */
+
+.footer{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.Contact{
+    background-color: #fff8f3;
+    padding: 130px 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+    
+}
+
+.message-container{
+
+}
+
+.field{
+    margin: 20px 0;
+    height: 50px;
+    width: 100%;
+    border: 0;
+    padding-left: 18px 30px;
+}
+
+#textarea{
+ height: 100px;
+}
+
+.copyright{
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+    color: crimson;
+}
+
+.connect-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.message-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image{
+    margin-top: 10px;
+}
+
+.btn-submit{
+    background-color: orangered;
+    border-radius: 8px;
+    outline: none;
+    color: beige;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    padding: 18px 35px;
 }

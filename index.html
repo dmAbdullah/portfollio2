@@ -10,6 +10,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
@@ -30,7 +31,7 @@
                     eligendi, alias quia natus beatae aliquam est accusantium eum sed nisi corrupti pariatur officiis
                     necessitatibus?</p>
                 <div class="banner-btn">
-                    <button class="btn-primary" type="button">Download CV</button>
+                    <button class="btn-primary" type="button">Download CV <i class="fas fa-download"> </i></button>
                     <button class="btn-Secondary" type="button">Contact</button>
                 </div>
             </div>
@@ -38,10 +39,134 @@
         </div>
     </header>
     <main>
+        <section class="about">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-des">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and
+                slick websites that provide real value to the end user. Thousands of clients have procured
+                exceptional resulfs while working with me. Delivering work within time and budget which meets
+                clients requirements in our mata.</p>
+            <div class="data">
+                <div>
+                    <p>Name:</p>
+                    <h3>Abdullah Ibn Younus</h3>
+                </div>
+                <div>
+                    <p>Email:</p>
+                    <h3>dmabdullah@imail.com</h3>
+                </div>
+                <div>
+                    <p>Date of Birth:</p>
+                    <h3>15 june 1993</h3>
+                </div>
+                <div>
+                    <p>Country:</p>
+                    <h3>Bangladesh</h3>
+                </div>
+            </div>
+        </section>
+        <section class="i-do">
+            <h3 class="do-title">What I Do</h3>
+            <p class="do-des">I have more than 10 years experience building software for clients all over the world. Below is a quick
+                overview of my main technical skill sets and technologies i use. Want to find out more about my experience?
+                Check out my online resume and project portfolio.</p>
+            
+            <!-- .skills-container>.skill*4>img+p.skill-title+p.skill-des>lorem15 -->
 
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="/resorces/icon/js.png" alt="">
+                    <p class="skill-title">Vanilla Java Script
+                    </p>
+                    <p class="skill-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aperiam consectetur totam maxime? Tempore, culpa?</p>
+                </div>
+                <div class="skill">
+                    <img src="/resorces/icon/react.png" alt="">
+                    <p class="skill-title">React</p>
+                    <p class="skill-des">Fugiat quibusdam, debitis rem nam ipsam iusto quisquam quo inventore earum facere, error odit a?</p>
+                </div>
+                <div class="skill">
+                    <img src="/resorces/icon/nodejs.png" alt="">
+                    <p class="skill-title">Node.js
+                    </p>
+                    <p class="skill-des">Pariatur nemo unde ea repellendus vero asperiores voluptate, rerum tenetur, expedita, ullam aperiam dolor dicta!</p>
+                </div>
+                <div class="skill">
+                    <img src="/resorces/icon/mongo.png" alt="">
+                    <p class="skill-title">MongoDB</p>
+                    <p class="skill-des">Laboriosam voluptatibus facere illum ipsam explicabo quaerat dolor cum repellendus, commodi sapiente magni corrupti nisi.</p>
+                </div>
+            </div>
+        </section>
+        <section class="resume">
+            <h3 class="sum-title">Case Summary of My Resume</h3>
+            <div class="Summary">
+                <div class="education">
+                    <p class="title">My Education</p>
+                    <div class="ex-name">
+                        <h3>BSc in Computer Science Engineering</h3>
+                        <p class="location">World University of Bangladesh / 2017-2020</p>
+                        <p class="ex-des">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                            commodo ligula eget dolor.</p>
+                    </div>
+                    <div class="ex-name">
+                        <h3>Telecommunication Technology</h3>
+                        <p class="location">Central Polytechnic Institute / 2011-2016</p>
+                        <p class="ex-des">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                            commodo ligula eget dolor.</p>
+                    </div>
+                    <div class="ex-name">
+                        <h3>Pure Science</h3>
+                        <p class="location">United School / 2010-2011</p>
+                        <p class="ex-des">List skill/technologies here. You can change the icon above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                            commodo ligula eget dolor.</p>
+                    </div>
+                </div>
+                <div class="experience"> 
+                    <p class="title">My Experience</p>
+                    <div class="exp-name">
+                        <h3>Executive l</h3>
+                        <p class="location">Vivasoft Ltd / 2023-Present</p>
+                        <p class="exp-des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum aut voluptatem maxime id necessitatibus ex facilis iure illo eum eligendi?</p>
+                    </div>
+                    <div class="exp-name"><h3>Executive ll</h3>
+                        <p class="location">Orange IT / 2022-2023</p>
+                        <p class="exp-des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum aut voluptatem maxime id necessitatibus ex facilis iure illo eum eligendi?</p></div>
+                    <div class="exp-name">
+                        <h3>Executive lll</h3>
+                        <p class="location">Datasoft Ltd / 2020-2022</p>
+                        <p class="exp-des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum aut voluptatem maxime id necessitatibus ex facilis iure illo eum eligendi?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-container"><button class="btn-cv" type="button">Download CV <i class="fas fa-download"></i></button></div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+<section class="Contact">
+    <div class="Connect-container">
+<p class="connect-title">Lets Connect</p>
+<p class="connect-des">Please fill out the form on this section to contact with me or call between
+    9:00 A.M and 8.00 P.M ET, Monday through Friday</p>
+<div class="image">
+    <img src="/resorces/icon/facebook.png" alt="">
+    <img src="/resorces/icon/insta.png" alt="">
+    <img src="/resorces/icon/twitter.png" alt="">
+</div>
+    </div>
+    <div class="message-container">
+        <p class="message-title">Let's Message me</p>
+        <form action="">
+            <input class="field" type="text" placeholder="Your Name">
+            <input class="field" type="text" placeholder="Your Email">
+            <textarea class="field" placeholder="Message" id="textarea"></textarea>
+        </form>
+        <button class="btn-submit" type="button">Submit</button>
+    </div>
+</section>
+<small class="copyright">copyright web auxiliary @2024 <a href="http:/webauxiliary.com/"></a></small>
     </footer>
 </body>
 
