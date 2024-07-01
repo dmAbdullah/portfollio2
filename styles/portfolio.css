@@ -7,7 +7,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px;
+    padding: 50px 150px;
 }
 
 .nav-title {
@@ -265,6 +265,7 @@ main {
     margin: 50px 0;
     justify-content: center;
     color: crimson;
+    font-style: none;
 }
 
 .connect-title{
